@@ -45,7 +45,6 @@
             }
         }
 
-
         // method untuk mengecek apakah username sudah ada atau belum
         static bool ValidateUsername(string username)
         {
@@ -68,6 +67,12 @@
             }
 
             return true;
+        }
+
+        // method to check user authentication
+        static User AuthenticateUser(string username, string password)
+        {
+            return users.SingleOrDefault(u => u.Username == username && u.Password == password);
         }
 
         // method untuk membuat user
@@ -184,16 +189,15 @@
             Console.Write("Masukkan Password: ");
             string password = Console.ReadLine();
 
-            foreach (User user in users)
+            var userLogin = AuthenticateUser(username, password);
+
+            if(userLogin != null)
             {
-                if (user.Username == username && user.Password == password)
-                {
-                    Console.WriteLine("Login Berhasil");
-                }
-                else
-                {
-                    Console.WriteLine("Login Gagal");
-                }
+                Console.WriteLine("Login Berhasil dengan Nama " + userLogin.GetFullName());
+            }
+            else
+            {
+                Console.WriteLine("Login Gagal");
             }
 
             Console.ReadLine();

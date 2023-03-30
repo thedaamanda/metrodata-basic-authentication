@@ -18,9 +18,15 @@
         // method untuk menampilkan informasi user
         public string DisplayUser()
         {
-            return $"Fullname\t: {this.FirstName} {this.LastName} \n" +
+            return $"Fullname\t: {this.GetFullName()} \n" +
                     $"Username\t: {this.Username} \n" +
                     $"Password\t: {this.Password}";
+        }
+
+        // method untuk menampilkan nama lengkap
+        public string GetFullName()
+        {
+            return $"{this.FirstName} {this.LastName}";
         }
     }
 }
