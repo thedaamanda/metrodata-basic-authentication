@@ -14,6 +14,14 @@
             this.Password = password;
             this.Username = username;
         }
+
+        // method untuk menampilkan informasi user
+        public string DisplayUser()
+        {
+            return $"Fullname\t: {this.FirstName} {this.LastName} \n" +
+                    $"Username\t: {this.Username} \n" +
+                    $"Password\t: {this.Password}";
+        }
     }
 }
 

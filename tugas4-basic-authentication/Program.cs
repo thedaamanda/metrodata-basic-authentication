@@ -126,9 +126,7 @@
             {
                 Console.WriteLine("======================");
                 Console.WriteLine("ID\t\t: " + (index + 1));
-                Console.WriteLine("Name\t\t: " + user.FirstName + " " + user.LastName);
-                Console.WriteLine("Username\t: " + user.Username);
-                Console.WriteLine("Password\t: " + user.Password);
+                Console.WriteLine(user.DisplayUser());
                 Console.WriteLine("======================");
             }
 
@@ -168,9 +166,7 @@
                 {
                     Console.WriteLine("======================");
                     Console.WriteLine("ID\t\t: " + (index + 1));
-                    Console.WriteLine("Name\t\t: " + user.FirstName + " " + user.LastName);
-                    Console.WriteLine("Username\t: " + user.Username);
-                    Console.WriteLine("Password\t: " + user.Password);
+                    Console.WriteLine(user.DisplayUser());
                     Console.WriteLine("======================");
                 }
             }
