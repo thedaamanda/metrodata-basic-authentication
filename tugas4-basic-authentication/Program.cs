@@ -165,15 +165,12 @@
             Console.Write("Masukkan Nama: ");
             string name = Console.ReadLine();
 
-            foreach (var (user, index) in users.Select((user, index) => (user, index)))
+            foreach (var (user, index) in users.Select((user, index) => (user, index)).Where(x => x.user.FirstName.ToLower().Contains(name.ToLower()) || x.user.LastName.ToLower().Contains(name.ToLower())))
             {
-                if (user.FirstName.ToLower().Contains(name.ToLower()) || user.LastName.ToLower().Contains(name.ToLower()))
-                {
-                    Console.WriteLine("======================");
-                    Console.WriteLine("ID\t\t: " + (index + 1));
-                    Console.WriteLine(user.DisplayUser());
-                    Console.WriteLine("======================");
-                }
+                Console.WriteLine("======================");
+                Console.WriteLine("ID\t\t: " + (index + 1));
+                Console.WriteLine(user.DisplayUser());
+                Console.WriteLine("======================");
             }
             Console.ReadLine();
         }
@@ -191,7 +188,7 @@
 
             var userLogin = AuthenticateUser(username, password);
 
-            if(userLogin != null)
+            if (userLogin != null)
             {
                 Console.WriteLine("Login Berhasil dengan Nama " + userLogin.GetFullName());
             }
