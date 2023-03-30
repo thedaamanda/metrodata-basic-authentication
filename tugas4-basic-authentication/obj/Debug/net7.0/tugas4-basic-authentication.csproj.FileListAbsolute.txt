@@ -1,0 +1,15 @@
+/Users/thedaamanda/Projects/tugas4-basic-authentication/tugas4-basic-authentication/bin/Debug/net7.0/tugas4-basic-authentication
+/Users/thedaamanda/Projects/tugas4-basic-authentication/tugas4-basic-authentication/bin/Debug/net7.0/tugas4-basic-authentication.deps.json
+/Users/thedaamanda/Projects/tugas4-basic-authentication/tugas4-basic-authentication/bin/Debug/net7.0/tugas4-basic-authentication.runtimeconfig.json
+/Users/thedaamanda/Projects/tugas4-basic-authentication/tugas4-basic-authentication/bin/Debug/net7.0/tugas4-basic-authentication.dll
+/Users/thedaamanda/Projects/tugas4-basic-authentication/tugas4-basic-authentication/bin/Debug/net7.0/tugas4-basic-authentication.pdb
+/Users/thedaamanda/Projects/tugas4-basic-authentication/tugas4-basic-authentication/obj/Debug/net7.0/tugas4-basic-authentication.csproj.AssemblyReference.cache
+/Users/thedaamanda/Projects/tugas4-basic-authentication/tugas4-basic-authentication/obj/Debug/net7.0/tugas4-basic-authentication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/thedaamanda/Projects/tugas4-basic-authentication/tugas4-basic-authentication/obj/Debug/net7.0/tugas4-basic-authentication.AssemblyInfoInputs.cache
+/Users/thedaamanda/Projects/tugas4-basic-authentication/tugas4-basic-authentication/obj/Debug/net7.0/tugas4-basic-authentication.AssemblyInfo.cs
+/Users/thedaamanda/Projects/tugas4-basic-authentication/tugas4-basic-authentication/obj/Debug/net7.0/tugas4-basic-authentication.csproj.CoreCompileInputs.cache
+/Users/thedaamanda/Projects/tugas4-basic-authentication/tugas4-basic-authentication/obj/Debug/net7.0/tugas4-basic-authentication.dll
+/Users/thedaamanda/Projects/tugas4-basic-authentication/tugas4-basic-authentication/obj/Debug/net7.0/refint/tugas4-basic-authentication.dll
+/Users/thedaamanda/Projects/tugas4-basic-authentication/tugas4-basic-authentication/obj/Debug/net7.0/tugas4-basic-authentication.pdb
+/Users/thedaamanda/Projects/tugas4-basic-authentication/tugas4-basic-authentication/obj/Debug/net7.0/tugas4-basic-authentication.genruntimeconfig.cache
+/Users/thedaamanda/Projects/tugas4-basic-authentication/tugas4-basic-authentication/obj/Debug/net7.0/ref/tugas4-basic-authentication.dll
